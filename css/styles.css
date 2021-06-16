@@ -1,0 +1,74 @@
+/**** @Author: Francisco Zapata ****/
+
+
+/** Reset the document **/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/** Custom Properties **/
+
+:root {
+    --blanco: #fff;
+    --negro: #000;
+}
+
+
+/** Globals **/
+
+body {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 110rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        width: 80%;
+    }
+}
+
+table {
+    margin-top: 8rem;
+    width: 100%;
+    border: 1px solid #333;
+}
+
+thead {
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #888;
+    padding: .6rem;
+}
+
+t #users-table {
+    margin-top: 8rem;
+}
+
+#users-table td {
+    text-align: center;
+    width: 4rem;
+}
