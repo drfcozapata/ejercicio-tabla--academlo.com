@@ -33,20 +33,10 @@ body {
     font-size: 16px;
 }
 
-img {
-    width: 100%;
-}
-
 .container {
     width: 90%;
     max-width: 110rem;
     margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-    .contenedor {
-        width: 80%;
-    }
 }
 
 table {
@@ -64,11 +54,3 @@ td {
     padding: .6rem;
 }
 
-t #users-table {
-    margin-top: 8rem;
-}
-
-#users-table td {
-    text-align: center;
-    width: 4rem;
-}
